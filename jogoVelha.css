@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    background-color: #4d5db6;
+    font-size: large;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #23335cf0;
+
+}
+a{
+    margin: 5px;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 9px;
+    margin: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #2b63ff;
+    color:#ffffff;
+    text-decoration: none;
+}
+input[type="submit"], button{
+    background-color: aliceblue;
+    color: #000000;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+#jogo{
+    width: 603px;
+    height: 603px;    
+    border: solid 3px;
+    display: inline-block; 
+    float: left;   
+    background-color: white;
+    
+}
+#resultado{
+    margin-left: 30px;
+    float: left;
+}
+#resposta{
+    font-size: 30;
+    font-style: italic;
+    font-weight: bold;
+    color: #ffffff;
+}
+.linha{
+    height: 200px;
+    border-bottom: solid 1px;
+}
+.casa{
+    width: 200px;
+    height: 100%;
+    border-right: solid 1px;
+    float: left;
+}
+.xis{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.bola{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.velha{
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+input[type = button], input[type = submit], input[type = reset] {
+    background-color: aliceblue;
+    background-image: linear-gradient(to bottom, #23335c, #23335c);
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 40px;
+    text-decoration: none;
+    box-shadow: 1px 1px 20px 0px #ffffff;
+    text-shadow: 1px 1px 20px #ffffff;
+    border: solid #314881 1px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type = button]:hover {
+    background: #1E62D0;
+    background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+    text-decoration: none;
+}
+#casa0, #casa1, #casa2, #casa3, #casa4, #casa5{
+    border-bottom: solid 1px;
+}
+
+element.style {
+    color: rgb(212, 33, 33); 
+    font-size: 270px;
+}
+footer{
+    background-color: #23335cf0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    font-size:  16px;
+    bottom: 0;
+    width: 100%;
+    margin-top: 150px;
+}
+
+footer div{
+    margin-top: 10px;
+}
+
+#links-rodape {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }

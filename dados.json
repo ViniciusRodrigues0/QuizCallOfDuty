@@ -1,0 +1,45 @@
+{
+    "personagem":[
+        {
+            "nome":"Ovo",
+            "descricao":"bate e rola",
+            "vida":"10x",
+            "img":"<img src='Imagens/1.png'>"
+        },
+
+        {
+            "nome":"Kinopio",
+            "descricao":"corre, pula, bate, voa e pilota karts.",
+            "vida":"5x",
+            "img":"<img src='Imagens/2.png'>"
+        },
+
+        {
+            "nome":"Gold",
+            "descricao":"corre, pula, bate e voa.",
+            "vida":"7x",
+            "img":"<img src='Imagens/3.png'>"
+        },
+
+        {
+            "nome":"teddy",
+            "descricao":"corre, pula, bate, voa, velocidade e pilota karts.",
+            "vida":"4x",
+            "img":"<img src='Imagens/4.png'>"
+        },
+
+        {
+            "nome":"florzinha",
+            "descricao":"bate, corre e pilota karts.",
+            "vida":"8x",
+            "img":"<img src='Imagens/5.png'>"
+        },
+
+        {
+            "nome":"Mistério",
+            "descricao":"pula, bate, voa e pilota karts.",
+            "vida":"4x",
+            "img":"<img src='Imagens/6.png'>"
+        }
+    ]
+}

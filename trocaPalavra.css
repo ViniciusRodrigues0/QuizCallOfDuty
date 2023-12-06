@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+    background-color: #384488;
+    font-size: large;
+}
+header{
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #23335cf0;;
+    padding: 12px;
+  }
+  h1{
+    color: aliceblue;
+    font-size: 1.7em;
+    margin: 10px;
+  }
+  a{
+    margin: 2px;
+    color: #ffffff;
+    text-align: center;
+    padding: 2px 7px;
+    margin: 2px;
+    border-radius: 20px;
+  }
+  
+  a:hover{
+    background-color: #2b63ff;
+    color:#0f172b;
+    text-decoration: none;
+  }
+  
+  .destaque {
+    background-color: #00ff40;
+    color:  #0f172b;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav{margin: 10px;}
+
+  /*troca*/
+
+  .jogotrocaletras{
+    text-align: center;
+    color: white;
+    
+  }
+
+  img {
+    border-radius: 7px;
+  }
+  .card1{
+    text-align: center;
+  }
+
+  .card2{
+    text-align: center;
+  }
+
+  .card3{
+    text-align: center;
+  }
+
+  .card4{
+    text-align: center;
+  }
+
+  .card5{
+    text-align: center;
+  }
+
+  .card6{
+    text-align: center;
+  }
+
+  .lado{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .tudo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    border-radius: 20px;
+}
+input[type="submit"], button{
+  background-color: aliceblue;
+  color: #000000;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+
+/* Footer*/
+footer{
+    background-color: #03002c;
+    color: White;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    min-height: 26vh;
+    margin-top: auto;
+    
+}
+
+footer div{
+    margin-top: 50px;
+}
+
+#links-rodape {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
